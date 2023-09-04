@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    
+    font-family: 'Lora', serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+}
+
+#hero{
+    color: white;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+ 
+    
+}
+
+#nav{
+    display: flex;
+    width: 100%;
+    padding: 20px 40px;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#heading {
+    margin-top: 90px;
+}
+
+#heading h1{
+    line-height: 1;
+    font-size: 9vw;
+    text-transform: uppercase;
+    font-weight: 900;
+    opacity: .7;
+    margin-left: 50px;
+}
+
+#heading #headingh1{
+    margin-left: 200px;
+}
+
+#heading h5{
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.blocktext{
+    width: fit-content;
+
+}
+
+#chhotiheadings{
+    margin-top: 100px;
+    padding-right: 40px;
+}
+
+#chhotiheadings h2{
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 1vw;
+    margin-top: .5vw;
+   
+    
+    
+}
+
+#herofooter{
+    width: 100%;
+    position: absolute;
+    bottom: 3%;
+    padding: 0 2vw;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#herofooter a{
+    color: white;
+
+}
+
+#herofooter #iconset{
+    display: flex;
+    gap: 5px;
+}
+
+#herofooter .circle
+{
+    opacity: .9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background-color: #888;
+    border-radius: 50%;
+}
+
+
+
